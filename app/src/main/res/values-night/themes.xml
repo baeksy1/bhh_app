@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+    <style name="Base.Theme.Bhh" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="android:windowLightStatusBar" >true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="q">false</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.Bhh" parent="Base.Theme.Bhh">
+        <item name="android:statusBarColor">@color/permission</item>
+    </style>
+    <style name="Theme.logo" parent="Base.Theme.Bhh" >
+        <item name="android:statusBarColor">@color/white</item>
+
+
+
+    </style>
+</resources>
